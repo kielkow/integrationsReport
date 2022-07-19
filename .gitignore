@@ -1,4 +1,5 @@
 node_modules
 package-lock.json
 samsung_report_active_projects.json
+samsung_report_active_integrations.csv
 .env

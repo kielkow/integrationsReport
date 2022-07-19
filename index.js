@@ -3,6 +3,7 @@ require('dotenv/config');
 const fs = require('fs');
 const axios = require('axios');
 const lodash = require('lodash');
+const ObjectsToCsv = require('objects-to-csv');
 
 let skip = 0;
 let activeIntegrations = [];
@@ -46,6 +47,18 @@ const report = async () => {
             }
         }
 
+        const orderActiveIntegrationsByTenant = lodash.orderBy(
+            activeIntegrations, ['tenant'], ['asc']
+        );
+
+        const csv = new ObjectsToCsv(orderActiveIntegrationsByTenant);
+
+        if (fs.existsSync('./samsung_report_active_integrations.csv')) {
+            fs.unlinkSync('./samsung_report_active_integrations.csv');
+        }
+
+        await csv.toDisk('./samsung_report_active_integrations.csv');
+        
         const groupedIntegrationsByTenantAndProject = [];
 
         const groupedIntegrationsByTenant = lodash.groupBy(

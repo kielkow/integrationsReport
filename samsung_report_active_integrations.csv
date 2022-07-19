@@ -1,0 +1,246 @@
+tenant,project_name,job_name,automation_file_name
+#main,Samsung Catalog,Universal Webhook,universalWebhook.js
+#main,demo-automation,Test JOB (DEV),test.js
+#main,Samsung Report,Send Exhange Rate - Currency Layer,oldExchangeRate.js
+#main,Samsung Report,Send Exchange Rate to Queue,sendExchangeRateTOQueue.js
+#main,Samsung <> SEASAUY,Date,test.js
+#main,Samsung Report,Send Exchange Rate to Queue - Today,sendExchangeRateTOQueue.js
+#main,Samsung Catalog,Create products and skus Samsung.com,create-products-samsungapi.js
+#main,Samsung Catalog,Find Description,findDescription.js
+#main,demo-automation,Test JOB (PROD),test.js
+Advanced payment Homolog Brazil brtests,SAP <> Vtex,reverse-advanced-payment,create-reversion-advanced-payment-at-sap.js
+Advanced payment Homolog Brazil brtests,SAP <> Vtex,retry-create-order-at-sap,create-order-at-sap.js
+Argentina,Samsung Catalog,BulkApi,getAllSkusHttp.js
+Argentina,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKU,sendAllVtexSkusToQueue.js
+Argentina,Samsung SDAP-LA Automations,master-data-management,master-data-managment.js
+Argentina,Samsung Report,[Data Lake] [RMQ] Send Orders already invoiced,sendOrderDeliveryDate.js
+Argentina,Samsung Report,validate Database Insertion,validateDataBaseInsertion.js
+Argentina,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG SKU,sendAllSkusSSGToQueue.js
+Argentina,Samsung Report,[Data Lake] [RMQ] Send Orders Delivery Date,sendOrderDeliveryDate.js
+Argentina,Samsung-Ecommerce-Analytics,Master Data - Update Customer Name,updateCustomerName.js
+Argentina,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Argentina,Samsung AVISE-ME,[CDM] - Send AVISE-ME,generateCSV.js
+Argentina,Samsung SDAP-LA Automations,retry-master-data-management,master-data-managment.js
+Argentina,Samsung CDM Reports,SKU Report Argentina,skuReport.js
+Argentina,Samsung Checkout,SSG Checkout,products-automation.js
+Argentina,Enablers BI,Samsung [AR] Enablers BI TradeIn,order-tradein.js
+Argentina,Enablers BI,Samsung [AR] Enablers BI SSG,order-samsung-care.js
+Argentina,Samsung-BI,Send VTEX Customers To MongoDB,save-vtex-customers.js
+Argentina,Samsung Report,[Data Lake] [RMQ] Send Orders to Feed,sendFeedOrdersToQueue.js
+Argentina,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+Brazil,Samsung Catalog,BulkApi,getAllSkusHttp.js
+Brazil,Samsung Report,[Data Lake] [RMQ]- Orders,sendFeedOrdersToQueue.js
+Brazil,Samsung TradeIn,Approve TradeIn Orders,authorizeOrders.js
+Brazil,Samsung Report,[Data Lake] [RMQ] Send Orders Delivery Date,sendOrderDeliveryDate.js
+Brazil,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+Brazil,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com SKUs,sendAllSkusSSGToQueue.js
+Brazil,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKU Migration,sendAllVtexSkusToQueue.js
+Brazil,Samsung-BI,Send VTEX Customers To MongoDB,save-vtex-customers.js
+Brazil,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Brazil,Samsung Batch,Expired Orders Report,sendExpiredOrdersEmail.js
+Brazil,Samsung Catalog,CDM - Generate Campaign Files,generateCampaignCDMCSV.js
+Brazil,Samsung AVISE-ME,Avise-me,generateCSV.js
+Brazil,Samsung Report,Retry feed orders,retryFeedOrdersAndSendToQueueList.js
+Brazil,Samsung TradeIn,Retry Price 100,retry.js
+Brazil,Samsung TradeIn,Retry-order-flow,order-flow.js
+Brazil,Samsung TradeIn,Retry- Send confirmation orders to  trocafone,retry-send-delivered-orders-confirmation.js
+Brazil,Samsung TradeIn,Retry - Approve TradeIn Orders,authorizeOrders.js
+Brazil,Samsung TradeIn,Send Confirmation to Trocafone,send-delivered-orders-confirmation-to-trocafone.js
+Brazil,Samsung Checkout,SSG Checkout,products-automation.js
+Brazil,Samsung TradeIn,Send Delivered Orders Vtex -> Troca Fone,order-flow.js
+Brazil D2C,SAP <> Vtex,create-order-at-sap,create-order-at-sap.js
+Brazil D2C,SAP <> Vtex,return-order-at-sap,return-order-at-sap.js
+Brazil D2C,SAP <> Vtex,create-advanced-payment-at-sap,create-advanced-payment-at-sap.js
+Brazil D2C,SAP <> Vtex,create-tax-payment-at-sap,create-tax-payment-at-sap.js
+Brazil D2C,SAP <> Vtex,return-advanced-payment-from-sap,advanced-payment-return-email-from-sap.js
+Brazil D2C,SAP <> Vtex,return-tax-payment-from-sap,return-tax-payment-at-sap.js
+Brazil D2C,SAP <> Vtex,update-price-at-vtex-v3,update-price-at-vtex-v3.js
+Brazil D2C,SAP <> Vtex,update-stock-at-vtex-v2,update-stock-at-vtex-v2.js
+Brazil EPP2,Samsung TradeIn,Aprove Tradein Orders,authorizeOrders.js
+Brazil EPP2,Samsung TradeIn,Send Confirmation to Trocafone,send-delivered-orders-confirmation-to-trocafone.js
+Brazil EPP2,Samsung TradeIn,retry-order-flow,order-flow.js
+Brazil EPP2,Samsung TradeIn,Send Delivered Vtex Order -> Trocafone,order-flow.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Update Stock Synapcom<>Vtex,updateStockAtVtex.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Create Product And Sku Synapcom<>Vtex,createProductsAndSkusAtVtex.js
+Brazil MarketPlaces,Itau Zup,Send Queue Orders to Vtex,zup-order-to-vtex.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Samsung Care+ Invoices,samsung-care-invoice.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Update Price Synapcom<>Vtex,updatePriceAtVtex.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Send-feed-length-to-slack,get-feed-length.js
+Brazil MarketPlaces,Samsung Report,RabbitMQ Report to Slack,send-queue-size-to-slack.js
+Brazil MarketPlaces,Samsung-BI,Send SKUs SSG to MongoDB,save-skus-samsung-com.js
+Brazil MarketPlaces,samsung-asm,update-movement-items,update-movements-database.js
+Brazil MarketPlaces,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+Brazil MarketPlaces,Samsung Report,Extract Data Orders + Logs,extractDataOrders.js
+Brazil MarketPlaces,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com SKUs,sendAllSkusSSGToQueue.js
+Brazil MarketPlaces,Samsung-BI,Send VTEX Customers To MongoDB,save-vtex-customers.js
+Brazil MarketPlaces,Samsung SDAP-LA Automations,master-data-management,master-data-managment.js
+Brazil MarketPlaces,Samsung Report,[Data Lake] [RMQ] Send Orders already invoiced,sendOrderDeliveryDate.js
+Brazil MarketPlaces,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Brazil MarketPlaces,Samsung Report,ExtractDataOrders2,extractDataOrders.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Retry - createOrdersAtKpl,createOrdersRetry.js
+Brazil MarketPlaces,Samsung-BI,Get currency day save mongo,save-currency-exchange.js
+Brazil MarketPlaces,samsung-share,send-sku-and-products-reports-to-telegram,send-telegram-reports.js
+Brazil MarketPlaces,samsung-share,send-orders-reports-to-telegram,send-telegram-reports.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Send Csv to GFK Weekly,sendCsvGfkWeekly.js
+Brazil MarketPlaces,Samsung SDAP-LA Automations,retry-master-data-management,master-data-managment.js
+Brazil MarketPlaces,Samsung Template Vtex,show-errors-skus-images.js,show-errors-skus-images.js
+Brazil MarketPlaces,Itau Zup,Send not integrated orders to queue,send-orders-itau.js
+Brazil MarketPlaces,samsung-asm,Remove,remove-movements.js
+Brazil MarketPlaces,Samsung-BI,Save Order By Date Vtex  > MongoDb,save-vtex-orders-by-day.js
+Brazil MarketPlaces,Samsung-BI,Update Payload Fields,reprocessed-payload-data-fields.js
+Brazil MarketPlaces,Samsung-BI,Reprocessed Elastic to Elastic,reprocessed-elastic-to-elastic.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Update Stock Synapcom<>Vtex,updateStockAtVtex.js
+Brazil MarketPlaces,Samsung-BI,Update Orders At Samsung BI,save-vtex-delivered-oders.js
+Brazil MarketPlaces,Samsung Checkout,SSG Checkout,products-automation.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Update Availability SalesPortal<>SynapcomErp,updateStockAtKplErp.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Cancel Orders Vtex<>Synapcom,cancelOrdersAtKpl.js
+Brazil MarketPlaces,Samsung Report,[Data Lake] [RMQ] Send Orders to Feed,sendFeedOrdersToQueue.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Send Approved Orders to Synapcom,createOrdersAtKpl.js
+Brazil MarketPlaces,Samsung-BI,Send VTEX Feed Orders to MongoDB,save-vtex-feed-orders.js
+Brazil MarketPlaces,Samsung Synapcom <> Vtex,Update Order Status Synapcom<>Vtex,updateOrdersStatusAtVtex.js
+Brazil MarketPlaces,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKU Migration,sendAllVtexSkusToQueue.js
+Chile,Samsung Catalog,BulkAPI,getAllSkusHttp.js
+Chile,Samsung Report,Find Missing Orders,findMissingOrders.js
+Chile,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com SKUs,sendAllSkusSSGToQueue.js
+Chile,Samsung Report,[Data Lake] [RMQ] Send Orders Delivery Date,sendOrderDeliveryDate.js
+Chile,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+Chile,Samsung-Ecommerce-Analytics,Master Data - Update Customer Name,updateCustomerName.js
+Chile,samsung-monitoring,Generate Csv,compareBulkApiPrices.js
+Chile,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Chile,Samsung Catalog,[CDM] Generate File,generateCDMCSV.js
+Chile,Samsung Report,Hana - Find Missing Orders,test.js
+Chile,Enablers BI,Samsung [CL] Enablers BI TradeIn,order-tradein.js
+Chile,Samsung Checkout,SSG Checkout,products-automation.js
+Chile,Enablers BI,Samsung [CL] Enablers BI SSG,order-samsung-care.js
+Chile,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKUs,sendAllVtexSkusToQueue.js
+Chile,Samsung Report,[Data Lake] [RMQ] Orders,sendFeedOrdersToQueue.js
+Colombia,Samsung Catalog,BulkApi,getAllSkusHttp.js
+Colombia,Samsung Report,[Data Lake] [RMQ] Orders,sendFeedOrdersToQueue.js
+Colombia,Samsung SDAP-LA Automations,master-data-management,master-data-managment.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ][B2C] - Invoice,updateOrderInvoiceImagiQ.js
+Colombia,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKUs,sendAllVtexSkusToQueue.js
+Colombia,Samsung Report,[Data Lake] [RMQ] Send Orders Delivery Date,sendOrderDeliveryDate.js
+Colombia,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+Colombia,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com SKUs,sendAllSkusSSGToQueue.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ][B2E] - Tracking,updateOrderTrackingPartialB2E.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ] [B2E] - Sync inventories,updateInventoryImagiQB2E.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ][B2C] - Sync inventories,updateInventoryImagiQ.js
+Colombia,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Colombia,Samsung Catalog,[CDM]  Generate CSV File,generateCDMCSV.js
+Colombia,Samsung SDAP-LA Automations,retry-master-data-management,master-data-managment.js
+Colombia,Samsung Samcol <> ImagiQ,Retry [ImagiQ] [B2E] - Sync Order And Creation Guide (Main),sendOrderToImagiQB2E.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ] Shipped Statues,updateOrderStatusToShippedCoordinadoraAndExxe.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ][B2C] - Tracking,updateOrderTrackingPartial.js
+Colombia,Samsung Checkout,SSG Checkout,products-automation.js
+Colombia,Enablers BI,Samsung [CO] Enablers BI SSG,order-samsung-care.js
+Colombia,Enablers BI,Samsung [CO] Enablers BI TradeIN,order-tradein.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ] [B2E] - Sync Order And Creation Guide (Main),sendOrderToImagiQB2E.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ][B2E] - Invoice,updateOrderInvoiceImagiQB2E.js
+Colombia,Samsung Samcol <> ImagiQ,[ImagiQ][B2C] Send Order to ImagiQ (New),sendOrderToImagiQ.js
+EPP <> Brazil,EPP2,Update User Limit,update-employee-orders-limit.js
+EPP <> Brazil,Samsung Report,[Data Lake] [RMQ] Orders,sendFeedOrdersToQueue.js
+EPP <> Brazil,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+EPP <> Brazil,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,getAllCustomers.js
+EPP <> Brazil,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com SKUs,sendAllSkusSSGToQueue.js
+EPP <> Brazil,Samsung Report,[Data Lake] [RMQ] Send Orders Delivery Date,sendOrderDeliveryDate.js
+EPP <> Brazil,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKUs,sendAllVtexSkusToQueue.js
+EPP <> Brazil,EPP2,Delete Vtex Masterdata Key,delete-masterdata-key.js
+EPP <> Brazil,EPP2,Create Vtex Masterdata Key,create-masterdata-key.js
+EPP <> Colombia,EPP2,Update User Limit,update-employee-orders-limit.js
+EPP <> Mexico,EPP2,Update User Limit,update-employee-orders-limit.js
+EPP <> Partnerships (Brazil),EPP2,Limit Campaign <> Partnerships,limit-campaign.js
+EPP <> Peru,EPP2,Update Limit User,update-employee-orders-limit.js
+Homolog Brazil,Samsung TradeIn,Homolog Order Flow,order-flow.js
+Homolog Brazil,Promotions,Promotions,promotions.js
+Homolog Brazil,Promotions,Active Promotions,active-promotions.js
+Homolog Brazil SamsungBrTest,Samsung TradeIn,Approve Tradein Orders,authorizeOrders.js
+Homolog Brazil SamsungBrTest,Samsung TradeIn,Send Confirmation to Trocafone,send-delivered-orders-confirmation-to-trocafone.js
+Homolog Brazil SamsungBrTest,Samsung SDAP-LA Automations,Samsung SDAP-LA Automation,master-data-managment.js
+Homolog Brazil SamsungBrTest,Samsung Template Vtex,show-errors-skus-images.js,show-errors-skus-images.js
+Homolog Brazil SamsungBrTest,Samsung Catalog,show-errors-skus-images,show-errors-sku-images.js
+Homolog Brazil SamsungBrTest,Samsung Template Vtex,Samsung.com Create Products and Skus ,create-product.js
+Homolog Brazil SamsungBrTest,VTEX Catalog Replication,Test,clone-catalog.js
+Homolog Brazil SamsungBrTest,Samsung TradeIn,Retry Send Delivered Orders Vtex -> Trocafone,order-flow.js
+Homolog Brazil SamsungBrTest,Samsung TradeIn,Approve Tradein Orders,authorizeOrders.js
+Homolog Brazil SamsungBrTest,Samsung TradeIn,Send Confirmation to Trocafone,send-delivered-orders-confirmation-to-trocafone.js
+Homolog Brazil SamsungBrTest,Samsung TradeIn,Send Delivered Orders Vtex -> Trocafone,order-flow.js
+Homolog Brazil SamsungBrTests,Itau Zup,Send Queue Orders to Vtex,zup-order-to-vtex.js
+Homolog Brazil SamsungBrTests,SAP <> Vtex,Return Order at Sap,return-order-at-sap.js
+Homolog Brazil SamsungBrTests,SAP <> Vtex,create-tax-payment,create-tax-payment-at-sap.js
+Homolog Brazil SamsungBrTests,Samsung TradeIn,Send Confirmation to Trocafone,send-delivered-orders-confirmation-to-trocafone.js
+Homolog Brazil SamsungBrTests,Samsung TradeIn,Send Delivered Orders Vtex -> Troca Fone,order-flow.js
+Homolog Brazil SamsungBrTests,Samsung TradeIn,Approve TradeIn Orders,authorizeOrders.js
+Homolog Brazil SamsungBrTests,SAP <> Vtex,retry-create-order-at-sap,create-order-at-sap.js
+Homolog Brazil Trocafone,Samsung TradeIn,Send Orders Vtex -> Troca Fone,orderFlowTrocaFone.js
+Homolog Colombia,Samsung Template Vtex,HLG- Colombia,create-product.js
+Homolog Peru,Samsung Template Vtex,Samsung.com Create Products and Skus ,create-product.js
+Mexico,Samsung Catalog,BulkAPI,getAllSkusHttp.js
+Mexico,Samsung Report,[Data Lake] [RMQ] Orders,sendFeedOrdersToQueue.js
+Mexico,Samsung Care,SamsungCare Mexico Pedidos Avulsos - Ready for handling,samsungcare-pedidos-avulsos.js
+Mexico,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKUs,sendAllVtexSkusToQueue.js
+Mexico,Samsung Care,Send Email and Clean Trigger,clean-trigger-and-send-email.js
+Mexico,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com SKUs,sendAllSkusSSGToQueue.js
+Mexico,Awake Vtex Service,[MX-Unidays] Awake Server Vtex,awake-server.js
+Mexico,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+Mexico,Samsung Report,[Data Lake] [RMQ] Send Orders Delivery Date,sendOrderDeliveryDate.js
+Mexico,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Mexico,Samsung Catalog,[CDM] -Generate File,generateCDMCSV.js
+Mexico,Samsung SDAP-LA Automations,retry-master-data-management,master-data-managment.js
+Mexico,Samsung Checkout,SSG Checkout,products-automation.js
+Mexico,Samsung-BI,Send Customers México to Mongo,save-vtex-customers.js
+Mexico,Enablers BI,Samsung [MX] Enablers BI TradeIn,order-tradein.js
+Mexico,Enablers BI,Samsung [MX] Enablers BI SSG,order-samsung-care.js
+Mexico,Samsung Care,SamsungCare Mexico Pedidos Avulsos - Invoiced,samsungcare-pedidos-avulsos.js
+Mexico,Samsung Care,SamsungCare Mexico Pedidos Avulsos - Payment Approved,samsungcare-pedidos-avulsos.js
+Mexico,Samsung Care,SamsungCare Mexico Pedidos Avulsos - Handling,samsungcare-pedidos-avulsos.js
+Mexico Cheil,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKUs,sendAllVtexSkusToQueue.js
+MexicoHLG,Samsung Catalog,Update Full Price,updateFullPrice.js
+MexicoHLG,Samsung Catalog,Enriquecimento de Kits,enrichmentKit.js
+MexicoHLG,Samsung Catalog,Configurate Environment,adjustVtexEnvironment.js
+MexicoSEM,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKUs,sendAllVtexSkusToQueue.js
+MexicoSEM,Samsung Report,[Data Lake] [RMQ] - Retry Orders,retryFeedOrdersAndSendToQueue.js
+Panama,Samsung <> SELA ,[Data Lake] [RMQ] Orders,sendFeedOrdersToQueue.js
+Panama,Samsung <> SELA ,[Data Lake] [RMQ] SKUs,sendSkusToQueue.js
+Panama,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com,sendAllSkusSSGToQueue.js
+Paraguay,Samsung Catalog,BulkAPI,getAllSkusHttp.js
+Paraguay,Samsung Batch,Update Price Kove,paraguaySendPrice.js
+Paraguay,Samsung Catalog,Send Orders Kove,approveOrderKove.js
+Paraguay,Samsung Catalog,Update Delivery Finish,sendTrackingParaguay.js
+Paraguay,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Paraguay,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+Paraguay,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com SKUs,sendAllSkusSSGToQueue.js
+Paraguay,Samsung Report,[Data Lake] [RMQ] Send Orders already invoiced,sendOrderDeliveryDate.js
+Paraguay,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKU Migration,sendAllVtexSkusToQueue.js
+Paraguay,Samsung Catalog,[CDM] Generate CSV File,generateCDMCSV.js
+Paraguay,Samsung Report,TESTE DATE ORDER,TesteDateOrder.js
+Paraguay,Samsung Report,Retry feed orders by Vtex,retryFeedOrderByVtex.js
+Paraguay,Samsung Report,[Data Lake] [RMQ]- Orders,sendFeedOrdersToQueue.js
+Paraguay,Samsung Checkout,SSG Checkout,products-automation.js
+Paraguay,Samsung Batch,Update Stock Kove,paraguaySendInventory.js
+Peru,Samsung Catalog,Inventory Service Http,updateStockHttp.js
+Peru,Samsung Catalog,BulkAPI,getAllSkusHttp.js
+Peru,Samsung Catalog,Urbaner - Update order to delivered,updateOrderToDeliveredUrbaner.js
+Peru,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKUs,sendAllVtexSkusToQueue.js
+Peru,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com,sendAllSkusSSGToQueue.js
+Peru,Samsung Report,Find Missing Orders,findMissingOrders.js
+Peru,Samsung Report,[Data Lake] [RMQ] Incomplete Orders,sendIncompleteOrdersToFeed.js
+Peru,Samsung Report,[Data Lake] [RMQ] Send Orders Delivery Date,sendOrderDeliveryDate.js
+Peru,Samsung-Ecommerce-Analytics,Master Data - Update Customer Name,updateCustomerName.js
+Peru,Sales-Portal-Integration,[Sales Portal] Receive Pricing,receive-price-sales-portal.js
+Peru,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Peru,Sales-Portal-Integration,[SEPR - Tracking e-Commerce] Download de Ordens,SEPR-Tracking-e-Commerce.js
+Peru,Samsung Report,Validate Database Insertion,validateDataBaseInsertion.js
+Peru,Samsung Catalog,[CDM] - Generate File,generateCDMCSV.js
+Peru,Sales-Portal-Integration,[Sales Portal] Send Order to Sales Portal,create-orders.js
+Peru,Samsung Checkout,SSG Checkout,products-automation.js
+Peru,Samsung-BI,Send Customers Peru to Mongo,save-vtex-customers.js
+Peru,Enablers BI,Samsung [PE] Enablers BI SSG,order-samsung-care.js
+Peru,Enablers BI,Samsung [PE] Enablers BI TradeIn,order-tradein.js
+Peru,Samsung Report,[Data Lake] [RMQ] Orders,sendFeedOrdersToQueue.js
+Uruguay,Samsung Report,[Data Lake] [RMQ] Orders,sendFeedOrdersToQueue.js
+Uruguay,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Vtex SKU Migration,sendAllVtexSkusToQueue.js
+Uruguay,Samsung Report,[Data Lake] [RMQ] Send Orders Delivery Date,sendOrderDeliveryDate.js
+Uruguay,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] SSG.com SKUs,sendAllSkusSSGToQueue.js
+Uruguay,Samsung Catalog,[CDM] Generate CSV File,generateCDMCSV.js
+Uruguay,Samsung-Ecommerce-Analytics,[Data Lake] [RMQ] Customers,sendAllCustomersToQueue.js
+Uruguay,Samsung Checkout,SSG Checkout,products-automation.js

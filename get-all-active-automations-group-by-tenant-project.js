@@ -53,11 +53,11 @@ const report = async () => {
 
         const csv = new ObjectsToCsv(orderActiveIntegrationsByTenant);
 
-        if (fs.existsSync('./samsung_report_active_integrations.csv')) {
-            fs.unlinkSync('./samsung_report_active_integrations.csv');
+        if (fs.existsSync('./samsung-active-automations-group-by-tenant-project.csv')) {
+            fs.unlinkSync('./samsung-active-automations-group-by-tenant-project.csv');
         }
 
-        await csv.toDisk('./samsung_report_active_integrations.csv');
+        await csv.toDisk('./samsung-active-automations-group-by-tenant-project.csv');
         
         const groupedIntegrationsByTenantAndProject = [];
 
@@ -87,12 +87,12 @@ const report = async () => {
             });
         }
 
-        if (fs.existsSync('./samsung_report_active_projects.json')) {
-            fs.unlinkSync('./samsung_report_active_projects.json');
+        if (fs.existsSync('./samsung-active-automations-group-by-tenant-project.json')) {
+            fs.unlinkSync('./samsung-active-automations-group-by-tenant-project.json');
         }
 
         fs.writeFile(
-            "samsung_report_active_projects.json",
+            "samsung-active-automations-group-by-tenant-project.json",
             JSON.stringify({ tenants: groupedIntegrationsByTenantAndProject }),
             'utf8',
             function (err) {

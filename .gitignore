@@ -1,5 +1,7 @@
+.env
 node_modules
 package-lock.json
-samsung_report_active_projects.json
-samsung_report_active_integrations.csv
-.env
+samsung-active-gateways.csv
+samsung-active-automations.csv
+samsung-active-automations-group-by-tenant-project.csv
+samsung-active-automations-group-by-tenant-project.json

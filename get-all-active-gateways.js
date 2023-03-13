@@ -42,8 +42,6 @@ const report = async () => {
             }
         }
 
-        console.log(activeGateways);
-
         const csv = new ObjectsToCsv(activeGateways);
 
         if (fs.existsSync('./samsung-active-gateways.csv')) {

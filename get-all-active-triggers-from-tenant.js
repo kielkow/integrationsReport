@@ -2,7 +2,7 @@ require('dotenv/config');
 
 const axios = require('axios');
 
-const project = '5fc8deeff191050011727419';
+const subscriber = '5c73ef1878fc77121074e08c'; // samsung
 
 let skip = 0;
 let activeTriggers = [];
@@ -15,10 +15,9 @@ const report = async () => {
                 method: "get",
                 url: "https://api-ultron.linkapi.solutions/v3/triggers",
                 params: {
-                    subscriber: '5c73ef1878fc77121074e08c',
+                    subscriber,
                     limit: 20,
                     isActive: true,
-                    project,
                     skip,
                     _sort_displayName: 'asc',
                 },
@@ -42,18 +41,7 @@ const report = async () => {
             }
         }
 
-        const triggersSet = new Set(activeTriggers.map(
-            trigger => trigger.name
-        ));
-
-        let triggers = [];
-        triggersSet.forEach((value, key, set) => {
-            triggers.push({
-                name: value,
-            })
-        });
-
-        console.log(triggers, triggers.length);
+        console.log(`Total of active triggers: ${activeTriggers.length}`);
     }
     catch (error) {
         console.error(error)

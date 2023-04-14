@@ -1,6 +1,7 @@
 .env
 node_modules
 package-lock.json
+samsung-active-triggers.csv
 samsung-active-gateways.csv
 samsung-active-automations.csv
 samsung-active-automations-group-by-tenant-project.csv

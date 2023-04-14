@@ -1,6 +1,9 @@
 require('dotenv/config');
 
+const fs = require('fs');
 const axios = require('axios');
+const moment = require('moment');
+const ObjectsToCsv = require('objects-to-csv');
 
 const subscriber = '5c73ef1878fc77121074e08c'; // samsung
 
@@ -30,7 +33,13 @@ const report = async () => {
 
             if (triggers.length) {
                 for (const trigger of triggers) {
-                    activeTriggers.push({ name: trigger.automationName });
+                    activeTriggers.push({
+                        Job: trigger.name,
+                        File: trigger.automationName,
+                        Project: trigger.project.name,
+                        Tenant: trigger.tenant.title,
+                        Created_At: moment(trigger.createdAt).format('YYYY-MM-DD'),
+                    });
                 }
 
                 skip++;
@@ -42,6 +51,14 @@ const report = async () => {
         }
 
         console.log(`Total of active triggers: ${activeTriggers.length}`);
+
+        const csv = new ObjectsToCsv(activeTriggers);
+
+        if (fs.existsSync('./samsung-active-triggers.csv')) {
+            fs.unlinkSync('./samsung-active-triggers.csv');
+        }
+
+        await csv.toDisk('./samsung-active-triggers.csv');
     }
     catch (error) {
         console.error(error)
